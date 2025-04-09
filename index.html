@@ -1,15 +1,107 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Dark Mode Demo</title>
-    <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 200px; /* Adjust the logo size */
+            height: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        main {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        .content {
+            margin-top: 20px;
+        }
+    </style>
 </head>
-
 <body>
-    <h1>Hello World!</h1>
-    <img src="./assets/images/logo.png" alt="Logo">
-    <h3>Sigma sigma on the wall</h3>
-</body>
 
+<header>
+    <img src="/assets/images/logo.png" alt="Logo">
+</header>
+
+<nav>
+    <a href="#">None</a>
+    <a href="#">Of These</a>
+    <a href="#">Buttons</a>
+    <a href="#">Work</a>
+</nav>
+
+<main>
+    <div class="content">
+        <h2>About Me (Chase)</h2>
+        <p>We provide assignments mere hours before the due date, often refraining from work untill the last day available</p>
+    </div>
+    <div class="content">
+        <h2>Our Expertise</h2>
+        <ul>
+            <li>Procrastination</li>
+            <li>Video game addiction</li>
+            <li>Being hardstuck gold</li>
+            <li>Coping after losing a ranked match</li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Walt Disney Corporation. All rights reserved.</p>
+</footer>
+
+</body>
 </html>
